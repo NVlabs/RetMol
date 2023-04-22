@@ -8,9 +8,9 @@
 </p>
 <br>
 
-This repo contains codes used in the paper:
+This repo contains codes used in the ICLR 2023 paper:
 <br>
-[**Retrieval-based Controllable Molecule Generation**](https://arxiv.org/abs/2208.11126).
+[**Retrieval-based Controllable Molecule Generation**](https://openreview.net/forum?id=vDFA1tpuLvk).
 
 _Abstract: Generating new molecules with specified chemical and biological properties via generative models has emerged as a promising direction for drug discovery. 
 However, existing methods require extensive training/fine-tuning with a large dataset, often unavailable in real-world generation tasks. 
@@ -91,19 +91,22 @@ This repo in part utilizes codes from the following:
 
 ## License
 
-Please check the [LICENSE](LICENSE) file. This work may be used non-commercially, meaning for research or evaluation
+This work is made available under the Nvidia Source Code License-NC. 
+Please check the [LICENSE](LICENSE) file. 
+
+The model checkpoints are shared under [CC-BY-NC-SA-4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode). If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original. 
+
+This work may be used non-commercially, meaning for research or evaluation
 purposes only. For business inquiries, please contact
 [researchinquiries@nvidia.com](mailto:researchinquiries@nvidia.com).
 
 ## Reference
 Feel free to cite the following if you find our work useful:
 ```
-@ARTICLE{retmol,
+@inproceedings{retmol2023iclr,
    author = {{Wang}, Zichao and {Nie}, Weili and {Qiao}, Zhuoran and {Xiao}, Chaowei and {Baraniuk}, Richard and {Anandkumar}, Anima},
-   title = "{Retrieval-based Controllable Molecule Generation}",
-   journal = {arXiv e-prints},
-   eprint = {2208.11126},
-   year = 2022,
-   month = aug,
+   title = {Retrieval-based Controllable Molecule Generation},
+   booktitle = {International conference on learning representations (ICLR)},
+  year = {2023}
 }
 ```
