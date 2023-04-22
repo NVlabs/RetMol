@@ -101,12 +101,12 @@ purposes only. For business inquiries, please contact
 [researchinquiries@nvidia.com](mailto:researchinquiries@nvidia.com).
 
 ## Reference
-Feel free to cite the following if you find our work useful:
+Please cite out work if you find it useful:
 ```
 @inproceedings{retmol2023iclr,
    author = {{Wang}, Zichao and {Nie}, Weili and {Qiao}, Zhuoran and {Xiao}, Chaowei and {Baraniuk}, Richard and {Anandkumar}, Anima},
    title = {Retrieval-based Controllable Molecule Generation},
    booktitle = {International conference on learning representations (ICLR)},
-  year = {2023}
+   year = {2023}
 }
 ```
